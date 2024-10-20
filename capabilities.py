@@ -11,18 +11,33 @@ capabilities = {
     "app": ""
 }
 
-capabilities = {
+airmirror_capabilities = {
     "deviceName": "Android Emulator",
     "platformName": "Android",
+    "automationName": "UiAutomator2",
     "appPackage": "com.sand.airmirror",
+    "appium:settings[IgnoreUnimportantViews]": "true",
     "appWaitActivity": "com.sand.airmirror.ui.guide.GuideActivity_",
     "app": "C:\\Users\\GIGACHAD\\PycharmProjects\\appium\\app\\AirMirror.apk"
 }
 
-capabilities = {
+sn_capabilities = {
     "deviceName": "Android Emulator",
     "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "appium:settings[IgnoreUnimportantViews]": "true",
     "appPackage": "com.mytona.seekersnotes.android",
+
     "appWaitActivity": "com.mytona.seekersnotes.android.MainActivity",
-    "app": "C:\\Users\\GIGACHAD\\PycharmProjects\\appium\\app\\app.apk"
+    "app": "C:\\Users\\GIGACHAD\\PycharmProjects\\appium\\app\\sn.apk"
+}
+
+saucelab_capabilities = {
+    "appium:deviceName": "Android Emulator",
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "appium:settings[IgnoreUnimportantViews]": "true",
+    "appium:appPackage": "com.swaglabsmobileapp",
+    "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity",
+    "appium:app": "C:\\Users\\GIGACHAD\\PycharmProjects\\appium\\app\\saucelabs.apk"
 }
